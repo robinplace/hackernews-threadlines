@@ -1,0 +1,5 @@
+.togg:before { content: ''; display: block; width: 1px; background-color: #828282; position: absolute; height: 10000px; padding: 8px; margin: 2px; background-clip: content-box; }
+.comment-tree { overflow: hidden; position: relative; }
+.default, .comment { background-color: #f6f6ef; box-shadow: 4px 4px 0 8px #f6f6ef; position: relative; width: 100%; }
+.comtr > td > table { width: 100%; }
+
