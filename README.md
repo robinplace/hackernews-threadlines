@@ -10,7 +10,7 @@ A pure CSS solution means that you can get Reddit-style indentation threadlines 
 
 Got to "My filters" on the uBlock Origin dashboard & copy in these four lines:
 
-	news.ycombinator.com##.togg:before:style( content: ''; display: block; width: 1px; background-color: #828282; position: absolute; height: 10000px; padding: 8px; margin: 2px; background-clip: content-box; )
+	news.ycombinator.com##.togg:before:style( content: ''; display: block; width: 1px; background-color: #9a9a9a; position: absolute; height: 10000px; padding: 8px; margin: 2px; background-clip: content-box; )
 	news.ycombinator.com##.comment-tree:style( overflow: hidden; position: relative; )
 	news.ycombinator.com##.default, .comment:style( background-color: #f6f6ef; box-shadow: 4px 4px 0 8px #f6f6ef; position: relative; width: 100%; )
 	news.ycombinator.com##.comtr > td > table:style( width: 100%; )
