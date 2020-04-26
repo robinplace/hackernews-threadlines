@@ -1,6 +1,8 @@
 # hackernews-threadlines
 
-*Do you struggle to click the tiny [-] button? Are you tired of scrolling all the way back up when you want to collapse a thread? Do you lose track when you get deep in a comment thread? Then Hacker News threadlines are for you!*
+*Do you struggle to click the tiny [-] button? Are you tired of scrolling all the way back up when you want to collapse a thread? Do you lose track when you get deep in a comment thread? Then Hacker News Threadlines are for you!*
+
+![A painfully small collapse button](https://raw.githubusercontent.com/robbiewxyz/hackernews-threadlines/master/painful-button.png)
 
 A pure CSS solution means that you can get Reddit-style indentation threadlines just by copying a little code into your uBlock Origin configuration.
 
