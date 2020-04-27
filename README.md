@@ -8,7 +8,7 @@ A pure CSS solution means that you can get Reddit-style indentation threadlines 
 
 ## Installation with uBlock Origin
 
-Got to "My filters" on the uBlock Origin dashboard & copy in these four lines:
+Go to "My filters" on the uBlock Origin dashboard & copy in these four lines:
 
 	news.ycombinator.com##.togg:before:style( content: ''; display: block; width: 1px; background-color: #9a9a9a; position: absolute; height: 10000px; padding: 8px; margin: 2px; background-clip: content-box; )
 	news.ycombinator.com##.comment-tree:style( overflow: hidden; position: relative; )
