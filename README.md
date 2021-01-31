@@ -8,12 +8,15 @@ A pure CSS solution means that you can get Reddit-style indentation threadlines 
 
 ## Installation with uBlock Origin
 
-Go to "My filters" on the uBlock Origin dashboard & copy in these four lines:
+Go to "My filters" on the uBlock Origin dashboard & copy in these seven lines:
 
 	news.ycombinator.com##.togg:before:style( content: ''; display: block; width: 1px; background-color: #9a9a9a; position: absolute; height: 10000px; padding: 8px; margin: 2px; background-clip: content-box; )
 	news.ycombinator.com##.comment-tree:style( overflow: hidden; position: relative; )
-	news.ycombinator.com##.default, .comment:style( background-color: #f6f6ef; box-shadow: 4px 4px 0 8px #f6f6ef; position: relative; width: 100%; )
+	news.ycombinator.com##.default, .comment, .morelink, .morespace:style( position: relative; )
+	news.ycombinator.com##.default, .comment:style( background-color: #f6f6ef; box-shadow: 0 4px 0 8px #f6f6ef; position: relative; width: 100%; )
+	news.ycombinator.com##.morespace:style( background-color: #f6f6ef; display: block; margin: 0 0 -30px; height: 40px !important; )
 	news.ycombinator.com##.comtr > td > table:style( width: 100%; )
+	news.ycombinator.com###hnmain > tbody > tr:last-child:style( position: relative; )
 
 ## Installation with Stylus (user style)
 
